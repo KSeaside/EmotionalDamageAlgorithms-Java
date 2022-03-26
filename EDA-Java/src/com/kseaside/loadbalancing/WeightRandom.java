@@ -4,7 +4,12 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-//缺点 权重大 ips越大 占内存 带权重随机
+/**
+ *  带权重随机
+ *
+ *  缺点 权重大 ips越大 占内存
+ */
+
 public class WeightRandom {
     public static String getServer() {
         //生成随机数作为List下标

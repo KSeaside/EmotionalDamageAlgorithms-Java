@@ -1,10 +1,10 @@
 package com.kseaside.loadbalancing;
 
-//平滑加权轮询
+
 public class Weight {
-    private String ip;
-    private Integer weight;
-    private Integer currentWeight;
+    private String ip; // id 地址
+    private Integer weight;  // 权重
+    private Integer currentWeight;  //当前权重
 
     public Weight(String ip, Integer weight, Integer currentWeight) {
         this.ip = ip;

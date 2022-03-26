@@ -8,7 +8,7 @@ public class WeightRoundRobinV2 {
     public static Map<String,Weight> currWeights = new HashMap<>();
 
     public static String getServer() {
-
+        // 计算总权重
         int totalWeights = ServerIps.WEIGHT_LIST.values().stream().mapToInt(w -> w).sum();
 
         //currentWeight 默认值 0

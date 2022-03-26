@@ -2,7 +2,9 @@ package com.kseaside.loadbalancing;
 
 import java.util.Random;
 
-//带权重随机
+/**
+ * 带权重随机
+ */
 public class WeightRandomV2 {
     public static String getServer() {
         //总权重

@@ -1,6 +1,8 @@
 package com.kseaside.loadbalancing;
 
-//轮询优化
+/**
+ * 轮询优化
+ */
 public class WeightRoundRobin {
     public static String getServer(Integer num) {
         // 计算总权重

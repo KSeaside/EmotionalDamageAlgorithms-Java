@@ -5,7 +5,9 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
-// 服务器IP
+/**
+ * 服务器ip
+ */
 public class ServerIps {
     // 不加权重
     public static final List<String> LIST = Arrays.asList(

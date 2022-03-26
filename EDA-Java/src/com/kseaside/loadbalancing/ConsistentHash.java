@@ -3,7 +3,9 @@ package com.kseaside.loadbalancing;
 import java.util.SortedMap;
 import java.util.TreeMap;
 
-//一致性hash 利用treemap实现
+/**
+ * 一致性hash
+ */
 public class ConsistentHash {
     private static TreeMap<Integer,String> virtualNodes = new TreeMap();
     private static final int VIRTUAL_NODES = 160;//虚拟节点个数

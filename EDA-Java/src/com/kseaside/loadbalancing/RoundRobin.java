@@ -1,6 +1,8 @@
 package com.kseaside.loadbalancing;
 
-//轮询算法
+/**
+ * 轮询算法
+ */
 public class RoundRobin {
     //位置
     public static Integer pos = 0;
