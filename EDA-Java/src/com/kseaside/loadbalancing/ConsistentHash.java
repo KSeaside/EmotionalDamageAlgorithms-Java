@@ -21,6 +21,11 @@ public class ConsistentHash {
         }
     }
 
+    /**
+     * 获取服务ip
+     * @param clientInfo 客户端信息
+     * @return 服务ip
+     */
     public static String getServer(String clientInfo) {
         int hash = getHash(clientInfo);
         //得到大于该Hash值的子红黑树
@@ -36,7 +41,9 @@ public class ConsistentHash {
     }
 
 
-    //hash算法
+    /**
+     * hash算法
+     */
     private static int getHash(String str) {
         final int p = 16777619;
         int hash = (int) 2166136261L;
