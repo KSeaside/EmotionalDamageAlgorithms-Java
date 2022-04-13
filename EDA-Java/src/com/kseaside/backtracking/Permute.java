@@ -1,4 +1,4 @@
-package com.kseaside.binarytree;
+package com.kseaside.backtracking;
 
 import java.util.LinkedList;
 import java.util.List;
