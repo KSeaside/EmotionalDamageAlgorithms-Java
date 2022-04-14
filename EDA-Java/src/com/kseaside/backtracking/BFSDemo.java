@@ -36,7 +36,7 @@ public class BFSDemo {
 //        }
 //    }
 
-    //    判断一棵二叉树的最小高度，这也是力扣第 111 题
+    // 判断一棵二叉树的最小高度，这也是力扣第 111 题
     int minDepth(TreeNode root) {
         if (root == null) return 0;
         Queue<TreeNode> q = new LinkedList<>();
