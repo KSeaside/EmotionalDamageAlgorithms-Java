@@ -15,6 +15,7 @@ public class Permute {
         boolean[] used = new boolean[nums.length];
 
         backtrack(nums, track, used);
+
         return res;
     }
 
